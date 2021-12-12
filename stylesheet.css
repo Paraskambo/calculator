@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(163, 84, 84,0.5);
+}
+.container{
+    height:auto;
+    width:40%;
+    margin:auto;
+    background-color: lightblue;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    color:red;
+    padding:.5em;
+}
+
+
+.row1{
+    background-color: darkblue;
+    color:white;
+
+}.row1 .column-screen{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    height:100px;
+}
+
+.row{
+    display:flex;
+    width:100%;
+    height:auto;
+
+
+}
+.row .column{
+    width:25%;
+    height:auto;
+    border:1px solid white;
+    margin:.5em;
+}
